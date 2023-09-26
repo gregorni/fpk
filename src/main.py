@@ -19,6 +19,11 @@
 
 import click
 
+@click.command()
+@click.argument("manifest")
+def start(manifest):
+    print(f"Manifest: {manifest}")
+
 def main(argv):
     """This statement prints Hello, World to your console"""
     print("Hello, World")
