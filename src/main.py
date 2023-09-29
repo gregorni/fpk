@@ -25,7 +25,6 @@ import click
 def start(manifest):
     print(f"Manifest: {manifest}")
 
-
 def main(argv):
     """This statement prints Hello, World to your console"""
     print("Hello, World")
