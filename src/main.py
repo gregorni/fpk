@@ -19,7 +19,6 @@
 
 import click
 
-
 @click.command()
 @click.argument("manifest")
 def start(manifest):
